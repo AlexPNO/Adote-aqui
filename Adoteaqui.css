@@ -1,0 +1,138 @@
+*{  font-family:'Poppins';
+    font-weight: 100;
+    padding: 0;
+    margin:0;
+
+}
+
+
+body{
+    background: black;
+    width:auto;
+
+}
+
+nav{
+    
+     display:flex;
+     flex-direction:row ;
+     justify-content: space-between;
+     height:100px ;
+     width: 100% ;
+     background:yellow;
+
+}
+.logo{
+    background: yellow;
+    display:flex;
+    align-items: center;
+    margin:10px;
+    font-weight: 700;
+}
+
+.logo h1{
+    font-weight: bolder;
+}
+
+.adote{
+    display:flex;
+    align-items: center;
+
+}
+
+.adote:hover{
+    font-size:xx-large
+}
+.menu{
+    display:flex;
+    align-items: center;
+}
+
+.menu ul{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+ .menu ul li{
+    right:0;
+    margin: 10px;
+    list-style: none;
+} 
+
+.todo ul li{
+    margin: 10px;
+    list-style: none;
+}
+
+.todo{
+    color:yellow;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    
+}
+    
+.todo img{
+    width:20vw;
+    height:45vh;
+    object-fit: cover;
+}
+
+@media (max-width:700px)
+{
+    .logo{
+        display:none
+    }
+    .adote{
+        display:none
+    }
+ 
+    ul{
+        display:flex;
+        flex-direction:column
+    }
+}
+
+@media(max-width:400px){
+    .todo{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+    }
+    
+    .todo ul li img{
+        width:100%;
+        /* justify-content: center; */
+    }
+
+}
+
+ul li:hover{
+    color:red
+    
+}
+
+.todo{
+    
+    display:flex;
+    justify-items: center;
+
+}
+
+img{
+    height:100px;
+    width:100px;
+}
+
+
+
+footer{
+    background:yellow;
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+    width:100%;
+}
